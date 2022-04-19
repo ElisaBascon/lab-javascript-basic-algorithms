@@ -28,7 +28,7 @@ console.log(splittedName.reverse().join(' '));
 
 //NO ME SALE ESTA TERCERA PARTE//
 const allNames = ['Pepe', 'Elisa'];
-const orderNames = allNames.sort(a, b)=> {
+const orderNames = allNames.sort((a, b)=> {
   if (a > b) {
     console.log('The driver"s name goes first.')
   }
@@ -38,3 +38,5 @@ const orderNames = allNames.sort(a, b)=> {
   else (a = b) {
     console.log('What?! You both have the same name?')
   }
+} 
+) 
