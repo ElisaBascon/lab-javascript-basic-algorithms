@@ -26,7 +26,7 @@ console.log(upperCaseNameWithSpaces);
 
 console.log(splittedName.reverse().join(' ')); 
 
-//NO ME SALE ESTA TERCERA PARTE//
+//
 const allNames = ['Pepe', 'Elisa'];
 const orderNames = allNames.sort((a, b)=> {
   if (a > b) {
